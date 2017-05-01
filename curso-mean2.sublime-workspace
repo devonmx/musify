@@ -1,0 +1,920 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"conta",
+				"contacto-socio\t(socios-comerciales.php)"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"box",
+				"box-btn"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"funct",
+				"function\t(app.js)"
+			],
+			[
+				"sess",
+				"sessionMiddleware"
+			],
+			[
+				"finde",
+				"findOneAndRemove"
+			],
+			[
+				"rig",
+				"right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"ex",
+				"exports\t(imagenes.js)"
+			],
+			[
+				"red",
+				"redirect"
+			],
+			[
+				"metho",
+				"methodOverride"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"fin",
+				"findOne\t(app.js)"
+			],
+			[
+				"img",
+				"img_schema"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"router",
+				"router_app"
+			],
+			[
+				"consol",
+				"console.log"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pasword",
+				"password_validation"
+			],
+			[
+				"password",
+				"password_confirmation"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"tri",
+				"transition"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"menu",
+				"menu-principal\t(index.html)"
+			],
+			[
+				"Q",
+				"Querétaro"
+			],
+			[
+				"container",
+				"container-fluid\t(index.html)"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"user",
+				"user_schema"
+			],
+			[
+				"bo",
+				"bodyParser"
+			],
+			[
+				"param",
+				"param_data"
+			],
+			[
+				"html",
+				"html_string"
+			],
+			[
+				"ht",
+				"index.html"
+			],
+			[
+				"promo-pla",
+				"promo-plaza-container\t(_promo_plaza.php)"
+			],
+			[
+				"promo",
+				"promo-plaza-1.jpg\tw:263 h:363"
+			],
+			[
+				"herma",
+				"hermano-saul.png\tw:202 h:220"
+			],
+			[
+				"buscador",
+				"buscador-main\t(main.less)"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"bc",
+				"bck-tiendas.jpg\tw:1400 h:120"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"pleca",
+				"pleca-tiendas\t(tiendas.php)"
+			],
+			[
+				"center",
+				"center-md\t(nosotros.less)"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"nos",
+				"no-scroll\t(main.less)"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"ico",
+				"iconos.png\tw:100 h:100"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"rgb",
+				"rgba"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"icono",
+				"icono-pavimentacion.png\tw:80 h:59"
+			],
+			[
+				"backgroud-",
+				"background-size"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"r",
+				"relative"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"mar-",
+				"margin-left"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"col-off",
+				"col-md-offset-2\t(nosotros.php)"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"inline",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/Genotipo/Desktop/CodigoFacilito/proyecto/models/user.js",
+			"settings":
+			{
+				"buffer_size": 1924,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"PCIP",
+				"Package Control: Install Package"
+			],
+			[
+				"PCRP",
+				"Package Control: Remove Package"
+			],
+			[
+				"PC",
+				"Package Control: Remove Package"
+			],
+			[
+				"Ip",
+				"Package Control: Install Package"
+			],
+			[
+				"IP",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Genotipo/Desktop/spoty",
+		"/Users/Genotipo/Desktop/CodigoFacilito/proyecto",
+		"/Users/Genotipo/Desktop/CodigoFacilito/proyecto/models"
+	],
+	"file_history":
+	[
+		"/Users/Genotipo/Desktop/spoty/package.json",
+		"/Users/Genotipo/Desktop/spoty/app.js",
+		"/Users/Genotipo/Desktop/spoty/index.js",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/bolsa-de-trabajo.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/includes/_bolsa.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/includes/_tiendas.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/socios-comerciales.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/aviso-de-privacidad.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/terminos-y-condiciones.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/anunciate-con-nosotros.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/includes/_nav_malls.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/includes/_footer.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/acerca-de-nosotros.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/interna-plaza.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/plazas.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/pro.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/promos.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/tiendas.php",
+		"/Users/Genotipo/Desktop/devon/assets/css/main.css",
+		"/Users/Genotipo/Desktop/devon/index.html",
+		"/Users/Genotipo/Desktop/devon/app/scripts/services/MyService.js",
+		"/Users/Genotipo/Downloads/slick-1.6.0/package.json",
+		"/Users/Genotipo/Desktop/Devon/proyecto/public/js/handdlebars.js",
+		"/Users/Genotipo/Desktop/Devon/proyecto/models/imagenes.js",
+		"/Users/Genotipo/Desktop/Devon/proyecto/public/imagenes/58f2c8074c4c2d057a61302f.jpg",
+		"/Users/Genotipo/Desktop/Devon/proyecto/views/app/imagenes/new.pug",
+		"/Users/Genotipo/Desktop/Devon/proyecto/middlewares/find_image.js",
+		"/Users/Genotipo/Desktop/Devon/proyecto/middlewares/image_permission.js",
+		"/Users/Genotipo/Desktop/Devon/proyecto/routes_app.js",
+		"/Users/Genotipo/Desktop/Devon/proyecto/views/app/imagenes/show.pug",
+		"/Users/Genotipo/Desktop/Devon/proyecto/public/css/app.css",
+		"/Users/Genotipo/Desktop/Devon/proyecto/middlewares/session.js",
+		"/Users/Genotipo/Desktop/Devon/proyecto/views/app/imagenes/index.pug",
+		"/Users/Genotipo/Desktop/Devon/proyecto/views/app/imagenes/edit.pug",
+		"/Users/Genotipo/Desktop/Devon/proyecto/views/layout.pug",
+		"/Users/Genotipo/Desktop/Devon/proyecto/views/index.pug",
+		"/Users/Genotipo/Desktop/Devon/proyecto/app.js",
+		"/Users/Genotipo/Desktop/Devon/proyecto/views/app/home.pug",
+		"/Users/Genotipo/Desktop/Devon/proyecto/views/signup.pug",
+		"/Users/Genotipo/Desktop/Devon/proyecto/views/login.pug",
+		"/Users/Genotipo/Desktop/Devon/proyecto/models/user.js",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/css/main.less",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/css/main.css",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/includes/_head.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/includes/_menu.php",
+		"/Users/Genotipo/Documents/Web/pibqueretaro.org/index.html",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/basica.php",
+		"/Users/Genotipo/Desktop/Devon/proyecto/public/app.css",
+		"/Users/Genotipo/Desktop/Devon/routing/app.js",
+		"/Users/Genotipo/Desktop/Devon/routing/views/get.pug",
+		"/Users/Genotipo/Desktop/Devon/routing/views/post.pug",
+		"/Users/Genotipo/Desktop/Devon/routing/views/index.pug",
+		"/Users/Genotipo/Desktop/Devon/routing/views/form.pug",
+		"/Users/Genotipo/Desktop/Devon/hola_express/app.js",
+		"/Users/Genotipo/Desktop/Devon/hola_express/views/index.pug",
+		"/Users/Genotipo/Desktop/Devon/hola_express/views/index.jade",
+		"/Users/Genotipo/Desktop/Devon/hola_express/package.json",
+		"/Users/Genotipo/Desktop/Devon/index.html",
+		"/Users/Genotipo/Desktop/Devon/params_parser.js",
+		"/Users/Genotipo/Desktop/Devon/form_params.js",
+		"/Users/Genotipo/Desktop/Devon/render_view.js",
+		"/Users/Genotipo/Desktop/Devon/render.js",
+		"/Users/Genotipo/Desktop/Devon/html.js",
+		"/Users/Genotipo/Desktop/Devon/hello.js",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/includes/_promo_plaza.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/js/plugins.js",
+		"/Users/Genotipo/Documents/Web/pibqueretaro.org/css/styles.css",
+		"/Users/Genotipo/Documents/Web/pibqueretaro.org/js/scripts.js",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/includes/_plazas.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/index.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/includes/_bolsa_trabajo.php",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/css/bootstrap.less",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/js/main.js",
+		"/Users/Genotipo/Downloads/search.svg",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/css/variables-bootstrap.less",
+		"/Users/Genotipo/Documents/Web/beta.mallsmexico.com/css/pagination.less",
+		"/Users/Genotipo/Documents/Web/malls/public/css/main.css",
+		"/Users/Genotipo/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Genotipo/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Genotipo/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Genotipo/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/johnlopez/Documents/Web/controldecarga.com/convertidor-de-divisas.php",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/css/componentes/owen-max.less",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/owen-max.php",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/css/utilidades.less",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/css/componentes/botones.less",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/css/main.css",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/js/main.js",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/js/main.min.js",
+		"/Users/johnlopez/Documents/Web/corporativoag.com/includes/_footer.php",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/sofom.php",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/includes/_sofom_servicios.php",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/css/main.less",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/cotizador-personal.php",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/index.php",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/nosotros.php",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/css/nosotros.less",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/css/main.css.map",
+		"/Users/johnlopez/Documents/Web/corporativoag.com/servicios/pavimentacion.php",
+		"/Users/johnlopez/Documents/Web/corporativoag.com/pavimentacion.php",
+		"/Users/johnlopez/Documents/Web/corporativoag.com/css/main.less",
+		"/Users/johnlopez/Documents/Web/corporativoag.com/includes/_functions.php",
+		"/Users/johnlopez/Documents/Web/corporativoag.com/index.php",
+		"/Users/johnlopez/Documents/Web/lascondesqro.com/includes/_functions.php",
+		"/Users/johnlopez/Documents/Web/corporativoag.com/includes/_menu.php",
+		"/Users/johnlopez/Documents/Web/corporativoag.com/includes/_head.php",
+		"/Users/johnlopez/Documents/Web/edimoviles.com/includes/_functions.php",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/css/componentes/barra-informacion.less",
+		"/Users/johnlopez/Documents/Web/controldecarga.com/crear-agencia-ws.php",
+		"/Users/johnlopez/Documents/Web/edimoviles.com/js/main.js",
+		"/Users/johnlopez/Documents/Web/edimoviles.com/js/plugins.js",
+		"/Users/johnlopez/Documents/Web/controldecarga.com/sftp-config.json",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/css/componentes/servicios.less",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/css/componentes/formulario.less",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/includes/_formulario_contacto.php",
+		"/Users/johnlopez/Documents/Web/owenfinancial.mx/obligaciones-sofom.php",
+		"/Users/johnlopez/Documents/Web/owenlanark.com/includes/_footer.php",
+		"/Users/johnlopez/Documents/Web/owenlanark.com/aviso-de-privacidad.php",
+		"/Users/johnlopez/Documents/Web/owenlanark.com/sftp-config.json",
+		"/Users/johnlopez/Documents/Web/owengroup.mx/includes/_footer.php",
+		"/Users/johnlopez/Documents/Web/owengroup.mx/includes/_menu.php",
+		"/Users/johnlopez/Documents/Web/owengroup.mx/aviso-de-privacidad.php",
+		"/Users/johnlopez/Documents/Web/owengroup.mx/sftp-config.json",
+		"/Users/johnlopez/Documents/Web/owengroup.mx/includes/_functions.php",
+		"/Users/johnlopez/Documents/Web/owengroup.mx/includes/config.json",
+		"/Users/johnlopez/Documents/Web/owengroup.mx/includes/config-example.json",
+		"/Users/johnlopez/Documents/Web/owenvacation.com/aviso-de-privacidad.php",
+		"/Users/johnlopez/Documents/Web/owenvacation.com/sftp-config.json"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"<project>",
+			"/Users/Genotipo/Documents/Web/malls/resources/assets/less",
+			"<project>",
+			"/Users/johnlopez/Documents/Web/edimoviles.com",
+			"/Users/johnlopez/Documents/Web/owenfinancial.mx/css",
+			"/Users/johnlopez/Documents/Web/owenfinancial.mx/css/componentes",
+			"/Users/johnlopez/Documents/Web/clubcampanario.mx",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"_tiendas.",
+			"h2",
+			"actual",
+			"font-fa",
+			"h1",
+			"font-fa",
+			"creator:",
+			"create:",
+			"Encontre la imagen",
+			"encontre",
+			"_tiendas.php",
+			"nav_slide_button",
+			"nav-toggle",
+			"'Varela Round', sans-serif",
+			"inner",
+			"john",
+			"body",
+			"url",
+			"                            <p>collaboratively administrate turnkey channels whereas virtual e-tailers an other media. </p>\n",
+			"pro-formulario",
+			"h4",
+			"@border-radius-base",
+			"@padding-base-vertical",
+			"pagination",
+			"padding: 6px 12px;",
+			".pagination",
+			".less",
+			".que-es__img",
+			"img",
+			"mb0",
+			"beta",
+			".servicio",
+			"Nuevo concepto en tiendas departamentales",
+			"jgutierrez",
+			"tarjeta departamental",
+			"¿Qué es una SOFOM?",
+			"contemplen expresamente como objeto social",
+			"contemplen expresamente",
+			"SOFOMES",
+			"REus",
+			"Requisitos para adquirir mi",
+			"local y regional",
+			"Cnbv",
+			"OWENLANARK",
+			"OWENLANARK FINANCIAL CORP S.A DE C.V.",
+			"OWENLANARK",
+			"strog",
+			"Derecho ARCO",
+			"Fines Secundarios",
+			"DATOSPERSONALES@OWENLANARK.COM",
+			"Datos Personales",
+			"OWENLANARK FINANCIAL CORP S.A DE C.V. SOFOM E.N.R",
+			"Aviso de Privacidad",
+			"Código Postal 77500",
+			"Solicitud",
+			"solicitud",
+			"Derechos ARCO",
+			"Derecho ARCO",
+			"http://www.owenlanark.com",
+			"Datos Personales",
+			"Datospersonales@owenhuman.com",
+			"OWEN LANARK HUMAN RESOURCES CORP S.A. de C.V",
+			"OWEN LANARK HUMAN RESOURCES CORP S.A. de C.V.",
+			"OWEN LANARK HUMAN RESOURCES CORP S.A. de C.V ",
+			"OWEN LANARK HUMAN RESOURCES CORP S.A. de C.V",
+			"OWEN LANARK HUMAN RESOURCES CORP S.A. de C.V.",
+			"derecho",
+			"CAMBIOS",
+			"Derechos",
+			"Derechos ARCO",
+			"Derecho ARCO",
+			"Aviso de Privacidad",
+			"NATURALEZA",
+			"DATOSPERSONALES@OWENGROUP.COM",
+			"NATURALEZA",
+			"OWEN GROUP S. DE R.L. DE C.V.",
+			"Listado de Exclusión",
+			"Derecho ARCO",
+			"ARCO",
+			"DATOSPERSONALES@OWENLANARK.COM",
+			"OWEN GROUP S. DE R.L. DE C.V ",
+			"OWEN GROUP S. DE R.L. DE C.V",
+			"OWEN GROUP S. DE R.L. DE C.V.",
+			"OWEN VACATIÓN S.A. DE C.V,",
+			"Datos Personales",
+			"DATOSPERSONALES@OWENLANARK.COM",
+			"DATOSPERSONALES@OWENLANARK.COM;",
+			"Fines Secundarios",
+			"Derecho ARCO",
+			"OWEN VACATION S.A DE C.V.",
+			"OWEN VACATION S.A. DE C.V.",
+			"OWEN VACATIÓN S.A DE C.V.",
+			"joaquin@edimoviles.com",
+			"edimerca@edimoviles.com",
+			"fix-typography",
+			".fix-typography",
+			"0.625rem",
+			"li:not",
+			"closehand.cur",
+			"openhand.cur",
+			"bx_loader.gif",
+			"<a",
+			"blank",
+			"slide",
+			"tinyMCE",
+			"#descripcion",
+			"_not",
+			"noticias",
+			"Noticias",
+			"Noticia",
+			"Nueva",
+			"140px",
+			"height:140px;",
+			"height: 140px;",
+			"satisfacci",
+			"satisfacce",
+			"satisfaccion",
+			"center",
+			"functionsd",
+			"forma-gral",
+			"”",
+			" “",
+			"ssl",
+			"“",
+			";\n",
+			"“",
+			"gif",
+			"bx-loader"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_bolsa.",
+			"h6",
+			"_plazas.php",
+			"<strong>OWENLANARK FINANCIAL CORP S.A DE C.V.</strong>",
+			"<strong>OWENLANARK</strong>",
+			"strong",
+			"<strong>Derecho ARCO</strong>",
+			"<strong>Fines Secundarios</strong>",
+			"<strong>DATOSPERSONALES@OWENLANARK.COM</strong>",
+			"<strong>Datos Personales</strong>",
+			"<strong>OWENLANARK FINANCIAL CORP S.A DE C.V. SOFOM E.N.R</strong>",
+			"<strong>Aviso de Privacidad</strong>",
+			"<strong>solicitud</strong>",
+			"<strong>Derechos ARCO</strong>",
+			"<strong>Derecho ARCO</strong>",
+			"<strong>http://www.owenlanark.com</strong>",
+			"<strong>Datos Personales</strong>",
+			"<strong>Datospersonales@owenhuman.com</strong>",
+			"<strong>OWEN LANARK HUMAN RESOURCES CORP S.A. de C.V</strong>",
+			"<strong>OWEN LANARK HUMAN RESOURCES CORP S.A. de C.V</strong> ",
+			"<strong>OWEN LANARK HUMAN RESOURCES CORP S.A. de C.V.</strong> ",
+			"<strong>OWEN LANARK HUMAN RESOURCES CORP S.A. de C.V</strong> ",
+			"<strong>OWEN LANARK HUMAN RESOURCES CORP S.A. de C.V</strong>",
+			"<strong>OWEN LANARK HUMAN RESOURCES CORP S.A. de C.V.</strong> ",
+			"<strong>Derechos ARCO</strong> ",
+			"<strong>Aviso de Privacidad</strong> ",
+			"<strong>DATOSPERSONALES@OWENGROUP.COM</strong> ",
+			"<strong>Derecho ARCO</strong> ",
+			"<strong>ARCO</strong> ",
+			"<strong>DATOSPERSONALES@OWENLANARK.COM</strong> ",
+			"<strong>OWEN GROUP S. DE R.L. DE C.V.</strong> ",
+			"<strong>OWEN GROUP S. DE R.L. DE C.V.</strong>",
+			"<strong>OWEN VACATIÓN S.A. DE C.V</strong>",
+			"<strong>Datos Personales</strong>",
+			"<strong>DATOSPERSONALES@OWENLANARK.COM</strong>",
+			"<strong>DATOSPERSONALES@OWENLANARK.COM;</strong>",
+			"<strong>Fines Secundarios</strong>",
+			"<strong>Derecho ARCO</strong>",
+			"<strong>OWEN VACATIÓN S.A DE C.V.</strong>",
+			"#principal",
+			"_sli",
+			"slides",
+			"Slides",
+			"Slide",
+			"Nuevo",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Genotipo/Desktop/CodigoFacilito/proyecto/models/user.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 74.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 329.0
+	},
+	"output.sftp":
+	{
+		"height": 116.0
+	},
+	"pinned_build_system": "",
+	"project": "curso-mean2.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 141.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
