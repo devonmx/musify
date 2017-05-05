@@ -18,7 +18,7 @@ function getArtist(req, res){
 			if(!artist){
 				res.status(404).send({message: 'El artista no existe'});
 			}else{
-				res.status(200).send({artist});
+				res.status(200).send({artist: artist});
 			}
 		}
 	});
@@ -38,7 +38,7 @@ function saveArtist(req,res){
 			if(!artistStored){
 				res.status(404).send({message: 'El artista no ha sido guardado'});
 			}else{
-				res.status(200).send({message: artistStored});
+				res.status(200).send({artist: artistStored});
 			}
 		}
 	})
@@ -54,7 +54,7 @@ function updateArtist(req, res){
 			if(!artistUpdate){
 				res.status(404).send({message: 'El artista no ha sido actualizado.'});
 			}else{
-				res.status(200).send({message: artistUpdate});
+				res.status(200).send({artist: artistUpdate});
 			}
 		}
 	});
@@ -67,7 +67,7 @@ function getArtists(req, res){
 	}else{
 		var page = 1;
 	}
-	var itemsPerPage = 3;
+	var itemsPerPage = 4;
 
 	Artist.find().sort('name').paginate(page,itemsPerPage, (err, artists, total) => {
 		if(err){
@@ -78,7 +78,7 @@ function getArtists(req, res){
 			}else{
 				return res.status(200).send({
 					total_items: total,
-					artist: artists
+					artists: artists
 				});
 			}
 		}
@@ -109,7 +109,7 @@ function deleteArtist(req, res){
 									if(!songRemoved){
 										res.status(404).send({message: 'La canción no ha sido eliminada.'});
 									}else{
-										res.status(200).send({artistRemoved});
+										res.status(200).send({artist: artistRemoved});
 									}
 								}
 							});

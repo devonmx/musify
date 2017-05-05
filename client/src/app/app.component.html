@@ -10,7 +10,7 @@
 			<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 			Buscar
 		</a>
-		<a [routerLink] = "['/artist', 1]">
+		<a [routerLink] = "['/artistas', 1]" [routerLinkActive]="['active']">
 			<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
 			Artistas
 		</a>
@@ -26,7 +26,7 @@
 		<span id="identity-name">
 			{{identity.name}}
 		</span>
-		<a [routerLink]="['/mis-datos']">
+		<a [routerLink]="['/mis-datos']" [routerLinkActive]="['active']">
 			<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
 			Mis datos
 		</a>
@@ -37,11 +37,11 @@
 	</nav>
 </div>
 
-<div *ngIf="identity" class="central col-lg-11">
+<div [class.hidden]="!identity" class="central col-lg-11">
 	<router-outlet></router-outlet>
 </div>
 
-<div *ngIf="!identity" class="col-lg-12">
+<div *ngIf="!identity" class="col-lg-11">
 	<div class="col-lg-6">
 		<h1>Identificate</h1>
 		<div *ngIf="errorMessage" class="alert alert-info">
