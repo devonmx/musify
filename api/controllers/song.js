@@ -18,7 +18,7 @@ function getSong(req, res){
 			if(!song){
 				res.status(404).send({message: 'No existe la canción.'});
 			}else{
-				res.status(200).send({song});
+				res.status(200).send({song: song});
 			}
 		}
 	});
@@ -31,7 +31,7 @@ function getSongs(req, res){
 		var find = Song.find({}).sort('number');
 	}else{
 		//Sacar los albums de un artista concreto de la DB
-		var find = Song.find({album: albumtId}).sort('number')
+		var find = Song.find({album: albumId}).sort('number')
 	}
 
 	// Le indicamos el id del objeto al cual esta asociado en el Models
@@ -48,7 +48,7 @@ function getSongs(req, res){
 			if(!songs){
 				res.status(404).send({message: 'No hay canciones'});
 			}else{
-				res.status(200).send({songs});
+				res.status(200).send({songs: songs});
 			}
 		}
 	});
@@ -89,7 +89,7 @@ function updateSong(req, res){
 			if(!songUpdated){
 				res.status(404).send({message: 'No se ha actualizado la canción.'});
 			}else{
-				res.status(200).send({album: songUpdated});
+				res.status(200).send({song: songUpdated});
 			}
 		}
 	});

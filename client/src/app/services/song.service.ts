@@ -3,69 +3,68 @@ import {Http, Response, Headers, RequestOptions} from '@angular/http';
 import 'rxjs/add/operator/map';
 import {Observable} from 'rxjs/Observable';
 import {GLOBAL} from './global';
-import { Album } from '../models/album';
+import { Song } from '../models/song';
 
 @Injectable()
-export class AlbumService{
+export class SongService{
 	public url: string;
 
 	constructor(private _http: Http){
-		// Asignamos el valor url de GLOBAL en la public url:string;
 		this.url = GLOBAL.url;
 	}
 	// Listado de albums
-	getAlbums(token,artistId = null){
+	getSongs(token,albumId = null){
 		let headers = new Headers({
 			'Content-Type':'application/json',
 			'Authorization':token
 		});
 
 		let options = new RequestOptions({headers:headers});
-		if(artistId == null){
-			return this._http.get(this.url+'albums', options).map(res => res.json());
+		if(albumId == null){
+			return this._http.get(this.url+'songs', options).map(res => res.json());
 		}else{
-			return this._http.get(this.url+'albums/'+artistId, options).map(res => res.json());
+			return this._http.get(this.url+'songs/'+albumId, options).map(res => res.json());
 		}
 	}
 	
-	getAlbum(token,id:string){
+	getSong(token,id:string){
 		let headers = new Headers({
 			'Content-Type':'application/json',
 			'Authorization':token
 		});
 
 		let options = new RequestOptions({headers:headers});
-		return this._http.get(this.url+'album/'+id, options).map(res => res.json());
+		return this._http.get(this.url+'song/'+id, options).map(res => res.json());
 	}
 
-	addAlbum(token, album: Album){
-		let params = JSON.stringify(album);
+	addSong(token, song: Song){
+		let params = JSON.stringify(song);
 		let headers = new Headers({
 			'Content-Type':'application/json',
 			'Authorization':token
 		});
 
-		return this._http.post(this.url+'album', params,{headers:headers}).map(res => res.json());
+		return this._http.post(this.url+'song', params,{headers:headers}).map(res => res.json());
 	}
 
-	editAlbum(token, id:string, album: Album){
-		let params = JSON.stringify(album);
+	editSong(token, id:string, song: Song){
+		let params = JSON.stringify(song);
 		let headers = new Headers({
 			'Content-Type':'application/json',
 			'Authorization':token
 		});
 
-		return this._http.put(this.url+'album/'+id, params,{headers:headers}).map(res => res.json());
+		return this._http.put(this.url+'song/'+id, params,{headers:headers}).map(res => res.json());
 	}
 
-	deleteAlbum(token,id:string){
+	deleteSong(token,id:string){
 		let headers = new Headers({
 			'Content-Type':'application/json',
 			'Authorization':token
 		});
 
 		let options = new RequestOptions({headers:headers});
-		return this._http.delete(this.url+'album/'+id, options).map(res => res.json());
+		return this._http.delete(this.url+'song/'+id, options).map(res => res.json());
 	}
 
 }

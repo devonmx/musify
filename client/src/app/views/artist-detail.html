@@ -26,8 +26,8 @@
 					<img src="{{url+'get-image-album/'+album.image}}" alt="--" />
 				</div>
 				<div class="album-name">
-					<p><a href="#" class="album-name-lnk">{{album.title}}</a></p>
-					<p><a [routerLink]="['/artist', album.artist_id]" class="album-name-lnk">{{album.artist.name}}</a></p>
+					<p><a [routerLink]="['/album', album._id]"  class="album-name-lnk">{{album.title}}</a></p>
+					<p><a [routerLink]="['/artista', album.artist._id]" class="album-name-lnk">{{album.artist.name}}</a></p>
 					<div class="buttons" *ngIf="identity.role == 'ROLE_ADMIN'">
 						<a [routerLink]="['/editar-album/',album._id]" class="btn btn-sm btn-warning">Editar</a>
 						<a (click)="onDeleteConfirm(album._id)" class="btn btn-sm btn-danger">Borrar</a>

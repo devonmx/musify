@@ -4,57 +4,58 @@ import {Router, ActivatedRoute, Params} from '@angular/router';
 import {GLOBAL} from '../services/global';
 import {UserService} from '../services/user.service';
 import {UploadService} from '../services/upload.service';
-import {ArtistService} from '../services/artist.service';
-import {Artist} from '../models/artist';
+import {SongService} from '../services/song.service';
+import {Song} from '../models/song';
 
 @Component({ 
-	selector: 'artist-edit',
-	templateUrl: '../views/artist-add.html',
-	providers:[UserService, ArtistService, UploadService]
+	selector: 'song-edit',
+	templateUrl: '../views/song-add.html',
+	providers:[UserService, SongService, UploadService]
 })
 
-export class ArtistEditComponent implements OnInit{
+export class SongEditComponent implements OnInit{
 	public titulo: string;
-	public artist: Artist;
+	public song: Song;
 	public identity;
 	public token;
 	public url: string;
 	public alertMessage;
 	public is_edit;
+	public filesToUpload: Array<File>;
 
 	constructor(
 		private _route: ActivatedRoute,
 		private _router: Router,
 		private _userService: UserService,
 		private _uploadService: UploadService,
-		private _artistService: ArtistService
-		){
-		this.titulo = 'Editar artista';
+		private _songService: SongService,
+		){ 
+		this.titulo = 'Editar canción';
 		this.identity = this._userService.getIdentity();
 		this.token = this._userService.getToken();
 		this.url = GLOBAL.url;
-		this.artist = new Artist('','','');
+		this.song = new Song(1,'','','','');
 		this.is_edit = true;
 	}
 
-
 	ngOnInit(){
-		console.log('artist-add.components.ts cargado');
-		//Llamar al metodo del api para sacar un artista en base a su id getArtist
-		this.getArtist();
+		console.log("song-edit.component cargado....");
+		// Sacar la cancion a editar
+		this.getSong();
 	}
 
-	getArtist(){
+	getSong(){
 		this._route.params.forEach((params: Params) => {
 			let id = params['id'];
-			this._artistService.getArtist(this.token, id).subscribe(
+			this._songService.getSong(this.token,id).subscribe(
 				response => {
-					if(!response.artist){
+					console.log(response);
+					if(!response.song){
 						this._router.navigate(['/']);
 					}else{
-						this.artist = response.artist;
+						this.song = response.song;
 					}
-				},
+				}, 
 				error => {
 					var errorMessage = <any>error;
 					if(errorMessage != null){
@@ -66,28 +67,27 @@ export class ArtistEditComponent implements OnInit{
 	}
 
 	onSubmit(){
-		console.log(this.artist);
-		this._route.params.forEach((params: Params) =>{
+		this._route.params.forEach((params: Params) => {
 			let id = params['id'];
 
-			this._artistService.editArtist(this.token, id, this.artist).subscribe(
+			this._songService.editSong(this.token,id,this.song).subscribe(
 				response => {
-					if(!response.artist){
+					console.log(response.song);
+					if(!response.song){
 						this.alertMessage = "Error en el servidor";
 					}else{
-						this.alertMessage = "¡El artista se ha actualizado correctamente!";
+						this.alertMessage = "La canción se ha actualizado correctamente!";
 						if(!this.filesToUpload){
-							this._router.navigate(['/artista', response.artist._id]);
+							this._router.navigate(['/album', response.song.album]);
 						}else{
-							// Subir imagen del artista
-							this._uploadService.makeFileRequest(this.url+"upload-image-artist/"+id, [], this.filesToUpload, this.token, 'image')
+							this._uploadService.makeFileRequest(this.url+"upload-file-song/"+id, [], this.filesToUpload, this.token, 'file')
 							.then(
 								(result) => {
-									this._router.navigate(['/artista', response.artist._id]);
+									this._router.navigate(['/album', response.song.album]);
 								},
 								(error) => {
 									console.log(error);
-								});
+								});	
 						}
 					}
 				},
@@ -102,18 +102,7 @@ export class ArtistEditComponent implements OnInit{
 		});
 	}
 
-	public filesToUpload: Array<File>;
 	fileChangeEvent(fileInput: any){
 		this.filesToUpload = <Array<File>>fileInput.target.files;
 	}
 }
-
-
-
-
-
-
-
-
-
-
